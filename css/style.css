@@ -1,0 +1,148 @@
+/* ======= Common CSS Start ========= */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1b4332;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  /* margin: 0 auto; */
+  padding: 250px;
+}
+
+
+/* ======= Common CSS End ========= */
+
+
+/* ======= To-Do App Work Start ====== */
+
+.todo-container {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #95d5b2;
+  border-radius: 10px;
+  padding:20px;
+
+}
+
+.todo-container h1 {
+  color: black;
+  font-family: serif;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+
+.input-containner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+
+.input-containner .inputTitle {
+  width: 300px;
+  height: 30px;
+  color: #1b4332;
+  font-family: serif;
+  font-size: 20px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #1b4332;
+
+}
+
+.input-containner .inputCaption {
+  width: 300px;
+  color: #1b4332;
+  font-family: serif;
+  font-size: 20px;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #1b4332;
+
+}
+
+
+.postBtn {
+  padding: 7px 15px;
+  background: white;
+  border: 1px solid #000000;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: serif;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.postBtn:hover {
+  color: black;
+  background: #95d5b2;
+  border: 1px solid #1b4332;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.card-body a{
+  color: black;
+}
+.card-body .card-title{
+  font-family: serif;
+  font-size: 25px;
+  font-weight: 600;
+
+
+}
+.card-body .card-text{
+  font-family: serif;
+  font-size: 17px;
+  font-weight: 400;
+  
+}
+.btn  {
+  background: white;
+  color: #1b4332;
+  border: 1px solid #1b4332;
+  padding: 5px 10px;
+  background: white;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.error{
+  color: black;
+  font-family: serif;
+  font-size: 20px;
+  font-weight: 400;
+
+}
+
+
+.upadte{
+  display: none;
+}
+/* ======= To-Do App Work End   ====== */
